@@ -37,3 +37,21 @@
 - Mathematical Relations
 - Graphs & Hasse Diagrams
 - Recurrence Relations
+
+[<h3>**CSE331 Computer Organization**</h3>](https://github.com/fatmanursefeer/GTU-Assignments/tree/master/CSE331-Computer-Organization)
+- This course teaches Computer Architecture and Hardware Design.
+- CPU Analysis
+- Assembly (MIPS)
+- Verilog
+- Alu Design
+
+[<h3>**CSE341 Programming Languages**</h3>](https://github.com/fatmanursefeer/GTU-Assignments/tree/master/CSE341-Programming-Languages)
+- This course teach Compiler Design and Compiler Construction.
+- Lexical Analysis
+- Syntax Analysis
+- Flex/Lex
+- Bison/Yacc
+- Lexer
+- Interpreter
+- Lisp
+- Prolog
