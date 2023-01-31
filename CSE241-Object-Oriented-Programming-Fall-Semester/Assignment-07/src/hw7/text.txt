@@ -1,0 +1,11 @@
+Size of the set is: 9
+
+Day: 7	Month: 1
+Day: 24	Month: 11
+Day: 25	Month: 12
+Day: 7	Month: 6
+Day: 13	Month: 7
+Day: 10	Month: 6
+Day: 13	Month: 5
+Day: 12	Month: 9
+Day: 15	Month: 2
