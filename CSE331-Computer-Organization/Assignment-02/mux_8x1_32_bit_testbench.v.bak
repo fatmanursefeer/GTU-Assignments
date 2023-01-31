@@ -1,0 +1,38 @@
+`define DELAY 20
+module mux_8x1_32_bit_testbench();
+
+reg [31:0] In0, In1, In2, In3, In4, In5, In6, In7;
+reg [2:0] Op;
+wire [31:0] Out;
+
+
+_32_bit_8x1_mux _32_8x1_mux(res,a,b,c,d,e,f,g,h,s);
+
+
+
+initial begin
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op = 3'b000;
+#`DELAY;
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op = 3'b001;
+#`DELAY;
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op  = 3'b010;
+#`DELAY;
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op = 3'b011;
+#`DELAY;
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op = 3'b100;
+#`DELAY;
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op = 3'b101;
+#`DELAY;
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op = 3'b110;
+#`DELAY;
+In0 = 'd10; In1 = 'd20; In2 = 'd30; In3 = 'd40; In4 = 'd50; In5 = 'd60; In6 = 'd70; In7 = 'd80; Op = 3'b111;
+
+end
+ 
+ 
+initial
+begin
+$monitor("time=%2d, In0=%d, In1=%d, In2=%d, In3=%d, In4=%d, In5=%d, In6=%d, In7=%d,Op=%d, Out=%d", $time, In0,In1,In2,In3,In4,In5,In6,In7,Op,Out);
+end
+ 
+endmodule

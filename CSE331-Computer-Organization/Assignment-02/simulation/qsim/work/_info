@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\michael\Desktop\cse331_hw2\simulation\qsim
+valu_32_bit
+Z1 I>Wng@]dLEXJjBfB=La8oV3
+Z2 V30n<nO=WZLUjVLUAe?1Jh0
+Z3 dC:\Users\michael\Desktop\cse331_hw2\simulation\qsim
+Z4 w1670529091
+Z5 8adder_32bit.vo
+Z6 Fadder_32bit.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 PTzL<;8n34DDX1oV?_k630
+!s85 0
+Z10 !s108 1670529092.352000
+Z11 !s107 adder_32bit.vo|
+Z12 !s90 -work|work|adder_32bit.vo|
+!s101 -O0
+valu_32_bit_vlg_check_tst
+!i10b 1
+!s100 HK]?_YOLI`cbmzHRe@<MV0
+IkWHBEgb<86YmNN9@@]ZAT1
+Vd^e@D=Q[`mYjZH>[R@L6?1
+R3
+Z13 w1670529089
+Z14 8Waveform1.vwf.vt
+Z15 FWaveform1.vwf.vt
+L0 63
+R7
+r1
+!s85 0
+31
+Z16 !s108 1670529092.470000
+Z17 !s107 Waveform1.vwf.vt|
+Z18 !s90 -work|work|Waveform1.vwf.vt|
+!s101 -O0
+R8
+valu_32_bit_vlg_sample_tst
+!i10b 1
+!s100 73fhl:c9QLOj`iL5m@WTZ0
+IA3ENPalSK2GkEV3I`LW?33
+V98B85<6;zWV`zL]EAof;K1
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+valu_32_bit_vlg_vec_tst
+!i10b 1
+!s100 mbCjoO>OU=iBZkJ3gVO>?3
+I`zdk:HEB[mONYcT1Pg7He2
+VoXD0GD8dVJUA[6Q^oeV;b0
+R3
+R13
+R14
+R15
+L0 715
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
